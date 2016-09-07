@@ -1,0 +1,49 @@
+body {
+  background: #fefefe;
+  font-family: Arial;
+  color: #333;
+  padding: 10px 220px;
+}
+
+a {
+  text-decoration: none;
+  color: #156dba;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* logo */
+img:first-of-type {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+img:nth-of-type(2),
+iframe {
+  width: 100%;
+  max-width: 100%;
+}
+
+h1 {
+  height: 100px;
+  line-height: 100px;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+
+h2:first-of-type {
+  clear: left;
+}
+
+#contact ~ a {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 6px;
+  background: transparent;
+  border: 1px solid #f3a10c;
+  color: #f3a10c;
+  margin-bottom: 10px
+}
